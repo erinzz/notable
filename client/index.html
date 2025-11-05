@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+</head>
+    <link rel="stylesheet" href="./style.css">
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h1>My Notes</h1>
+                <button id="newNoteBtn" class="btn btn-primary">+ New Note</button>
+            </div>
+            <div id="notesList"></div>
+        </div>
+        <div class="editor">
+            <div class="editor-header">
+                <button id="saveBtn" class="btn btn-primary">Save</button>
+                <button id="deleteBtn" class="btn btn-danger" disabled>Delete</button>
+            </div>
+            <div class="editor-content">
+                <input type="text" id="noteTitle" placeholder="Note title...">
+                <textarea id="noteContent" placeholder="Start typing your note..."></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
