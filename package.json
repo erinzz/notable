@@ -6,7 +6,7 @@
   "main": "dist/server.js",
   "scripts": {
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
-    "dev:server": "nodemon --watch src --ext ts --exec ts-node src/server.ts",
+    "dev:server": "nodemon --watch src --ext ts --exec ts-node src/server/server.ts",
     "dev:client": "webpack --watch --mode development",
     "build": "npm run build:client && npm run build:server",
     "build:client": "webpack --mode production",
